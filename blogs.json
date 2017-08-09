@@ -1,0 +1,17 @@
+{ "blogs": [{
+    "author": "Lincoln",
+    "title": "Annabelle: Creation",
+    "content": "Wonderful!",
+    "image": "http://www.joblo.com/newsimages1/annabelle-creation-fb.jpg"
+  }, {
+    "author": "Witty",
+    "title": "Spider-Man: Homecoming",
+    "content": "I don't like it",
+    "image": "http://www.spidermanhomecoming.com/images/bg_spiderman.png"
+  }, {
+    "author": "Witty",
+    "title": "Atomic Blonde",
+    "content": "Beautiful, just beautiful!",
+    "image": "https://www.bleedingcool.com/wp-content/uploads/2017/07/Atomic-Blonde.jpg"
+  }]
+}

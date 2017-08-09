@@ -1,0 +1,15 @@
+<h1>Welcome to L&W Movie Blog</h1>
+
+<p>Here at L&W, we love movies like Train to Busan and Chick Flick!</p>
+
+<ul>
+  {{#each model as |blog|}}
+    {{blog-tile blog=blog destroyBlog="destroyBlog"}}
+  {{/each}}
+</ul>
+
+{{new-blog saveBlog2="saveBlog3"}}
+
+{{#link-to 'about'}}Click here to learn about us!{{/link-to}}
+<br>
+{{#link-to 'contact'}}Click here to contact us!{{/link-to}}
