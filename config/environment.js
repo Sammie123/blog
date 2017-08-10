@@ -18,10 +18,12 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: "AIzaSyDm2uJvurUX7guSDL9J67-UNiGy6t6m1Z4",
-      authDomain: "blog-bbc38.firebaseapp.com",
-      databaseURL: "https://blog-bbc38.firebaseio.com",
-      storageBucket: "blog-bbc38.appspot.com",
+      apiKey: "AIzaSyDH5x0nw1mUSsGggGtxSBrMdmWlHFq7Q3k",
+      authDomain: "blog-ca20a.firebaseapp.com",
+      databaseURL: "https://blog-ca20a.firebaseio.com",
+      projectId: "blog-ca20a",
+      storageBucket: "",
+      messagingSenderId: "917058007775"
     },
 
     APP: {

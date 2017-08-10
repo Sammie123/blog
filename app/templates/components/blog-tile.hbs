@@ -1,8 +1,12 @@
-<li>{{blog.title}}'s Review by {{blog.author}}
-  {{#if isImageShowing}}
-    <p><img src={{blog.image}} {{action 'imageHide'}}></p>
-  {{else}}
-    <button {{action 'imageShow'}}>Show Image</button>
-  {{/if}}
-  <button {{action 'delete' blog}}>Delete Blog</button>
-</li>
+<div class="thumbnail">
+  {{#link-to 'blog' blog.id}}
+  <div class="row">
+    <div class="col-md-6">
+      <img height=100% width=100% id="harryPotter" src={{blog.image}}>
+    </div>
+    <div class="col-md-6">
+      {{blog.title}}'s Review <br> by {{blog.author}}
+    </div>
+  </div>
+  {{/link-to}}
+</div>

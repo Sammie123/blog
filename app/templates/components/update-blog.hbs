@@ -1,0 +1,30 @@
+{{#if updateBlogForm}}
+  <h4>Update {{blog.title}}</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="author">Author</label>
+        {{input value=author id="author" placeholder=blog.author}}
+      </div>
+
+      <div class="form-group">
+        <label for="title">Title</label>
+        {{input value=title id="title" placeholder=blog.title}}
+      </div>
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        {{input value=content id="content" placeholder=blog.content}}
+      </div>
+
+      <div class="form-group">
+        <label for="image">Image</label>
+        {{input value=image id="image" placeholder=blog.image}}
+      </div>
+
+      <button {{action 'update' blog}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'updateBlogForm'}}>Update</button>
+{{/if}}

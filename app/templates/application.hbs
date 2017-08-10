@@ -1,5 +1,25 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="container">
+  <header class= "jumbotron">
+    <h1>L&W</h1>
+    <input type="checkbox" id="menuToggle">
+    <label for="menuToggle" class="menu-icon">&#9776;</label>
+    <nav class="menu">
+	    <ul>
+      	<li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">WORK</a></li>
+          <li><a href="#">INSPIRATION</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        {{outlet}}
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  <hr>
+</div>

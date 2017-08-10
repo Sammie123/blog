@@ -1,0 +1,12 @@
+{{blog.title}}
+<br>
+{{blog.content}}
+<br>
+<p><img src={{blog.image}}></p>
+<br>
+<br>
+<br>
+
+{{lazy-video url=blog.trailer}}
+
+<button {{action 'delete' blog}}>Delete</button>
